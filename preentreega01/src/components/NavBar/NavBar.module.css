@@ -1,13 +1,32 @@
+.contenedor{
+    background-color: rgb(147, 206, 186);
+}
+.contenedor nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
 .titulo{
     font-family: 'Wix Madefor Display', sans-serif;
-    background-color: blue;
-    margin-right: 20px;
 }
 
 
 
-.botones{
+.botonesBox{
     display: flex;
     align-items: center;
-    background-color: blueviolet;
+}
+
+.botones {
+    padding: 0.5rem;
+    margin: 0 0.5rem 0 0.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+
+.botones:hover{
+    background-color: cornsilk;
 }
